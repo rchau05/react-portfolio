@@ -15,10 +15,15 @@ export const Home = React.createClass({
     return (
       <div className={s.page}>
         <div className={s.siteTitle}>
-          <h1>My name is Rocky Chau and I am a full stack web developer in San Francisco</h1>
+          <h1>Welcome!</h1>
         </div>
         <div className={s.siteContentLeft}>
-          <img src = {logo} />
+          <h2 className= {s.myName}>Rocky Chau</h2>
+          <h2>Full Stack Web Developer</h2>
+          <Link to='/about'><h2>Learn More!</h2></Link>
+        </div>
+        <div className={s.siteContentRight}>
+          <img className= {s.portrait} src='./portrait.jpg' />
         </div>
       </div>
     );

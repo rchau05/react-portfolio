@@ -9,9 +9,13 @@ export const Contact = React.createClass({
         <div className={s.siteTitle}>
           <h1>Contact</h1>
         </div>
-        <h4>
-        	Let's get in touch! Feel free to contact me through the following
-        </h4>
+        <img className={s.contactPhoto} src='http://2.bp.blogspot.com/-nQc-Dj517_o/UTns6klEtTI/AAAAAAAAAEw/F9nK5uSVUBQ/s1600/people_talking_on_phone.jpg' />
+        <h3>
+        	Lets get in touch! 
+        </h3>
+        <h3>
+       	 Feel free to contact me through the following:
+        </h3>
          <div className={s.socialNetwork}>
               <a href="https://www.linkedin.com/in/rockychau"><img className={s.socialPopout} src="http://bradsknutson.com/wp-content/themes/bradsknutson/images/linkedin-48circle.png" /></a>
 
@@ -23,7 +27,7 @@ export const Contact = React.createClass({
           </div>
         <footer className={s.footer}>
           <small>
-          	Built with React, React Router and Webpack
+          	Built with ReactJS
           </small>
           <small>
           	&copy; Rocky Productions
